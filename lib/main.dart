@@ -3,6 +3,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:netflix/core/colors/colors.dart';
+import 'package:netflix/presentation/fast_laughs/screen_fast_laughs.dart';
+import 'package:netflix/presentation/home/screen_home.dart';
 
 import 'package:netflix/presentation/splash/screen_splash.dart';
 
@@ -33,7 +35,7 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
-      home: const SplashScreen(),
+      home: const ScreenFastLaugh(),
     );
   }
 }
